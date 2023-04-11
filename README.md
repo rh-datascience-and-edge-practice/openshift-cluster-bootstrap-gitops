@@ -140,7 +140,7 @@ Argo creates the following group in OpenShift to grant access and control inside
 To add a user to the admin group run:
 
 ```sh
-oc adm groups add-users argocdadmins $(oc whoami)
+oc adm groups add-users gitopsadmins $(oc whoami)
 ```
 
 To add a user to the user group run:
